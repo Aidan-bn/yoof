@@ -113,7 +113,16 @@ function App() {
       </section>
 
       <section className='footer'>
-        
+        <h4>Reach Us!</h4>
+        <hr />
+        <form>
+          <label>Name: </label>
+          <input type="text" class="name" id="name"></input>
+          <label>Email: </label>
+          <input type="text" class="email" id="email"></input>
+          <label>Message: </label>
+          <textarea class='message' id='message' />
+        </form>
       </section>
     </div>
   );

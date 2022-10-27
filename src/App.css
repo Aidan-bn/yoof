@@ -276,3 +276,32 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 768px){
+
+}
+
+.footer {
+  background-image: url('../public/img/bg-dark.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  color: #fa8128;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer h4 {
+  font-size: 30px;
+}
+
+.footer hr {
+  width: 90px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px){
+
+}
