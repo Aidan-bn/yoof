@@ -166,6 +166,10 @@
     margin-top: 20px;
   }
 
+.search-desk {
+  display: none;
+}
+
 .search {
   height: 60vh;
   display: flex;
@@ -222,7 +226,80 @@
 }
 
 @media screen and (min-width: 768px) {
-  
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 40px;
+    background-color: #fa8128;
+    position: sticky;
+    top: 5px;
+  }
+
+  .humberger {
+    display: none;
+  }
+
+  .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 800;
+    font-size: 20px;
+    width: 40%;
+  }
+
+  .section-header {
+    display: flex;
+    flex-direction: column;
+}
+
+  .search-desk {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.search {
+  display: none;
+}
+
+  .App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    gap: 30px;
+  }
+
+  .search-desk {
+    width: 70%;
+  }
+
+  .inputSearch-desk {
+    width: 60%;
+    height: 30px;
+    border-radius: 8px 0px 0px 8px;
+    border: 0px;
+    background-color: rgba(250, 129, 40, 0.9);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+  }
+
+  .btnSearch-desk {
+    background-color: #1d1d1d;
+    color: #fa8128;
+    padding: 9px;
+    border: 0px;
+    border-radius: 0px 8px 8px 0px;
+    font-size: 20px;
+    font-weight: 900px;
+    width: 120px;
+  }
+
 }
 
 /*partners*/
@@ -250,6 +327,16 @@
 }
 
 @media screen and (max-width: 768px) {
+  .nav-bar {
+    display: none;
+  }
+
+  .humberger {
+    position: absolute;
+    color: #fa8128;
+    right: 40px;
+    top: 40px;
+  }
   .partners {
     flex-direction: column;
     align-items: center;
