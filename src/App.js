@@ -109,7 +109,11 @@ function App() {
       </section>
 
       <section className='google-map'>
+        <h2>Our Google map goes here</h2>
+      </section>
 
+      <section className='footer'>
+        
       </section>
     </div>
   );
