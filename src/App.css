@@ -70,6 +70,7 @@
 
 .work h2:hover {
   border-bottom: 3px solid #fa8128;
+  cursor: pointer;
 }
 
 .color-codes {
@@ -106,26 +107,26 @@
   justify-content: space-around;
 }
 
-.illustration {
-  width: 40px;
-  height: 35px;
-  border-radius: 50%;
-}
-
 .work-description {
   background-color: rgba(250, 129, 40, 0.9);
   border-radius: 0px 0px 8px 8px;
-  padding: 10px;
+  padding: 20px;
   text-align: justify;
-  height: 50%;
+  /* height: 50%; */
 }
 
 .work-description h4{
   text-align: center;
   padding: 8px;
   font-weight: 800;
-  border-bottom: 2px solid #ffffff;
   margin: 4px auto;
+}
+
+.work-description hr {
+  width: 150px;
+  background-color: #ffffff;
+  height: 1px;
+  margin: 10px auto;
 }
 
 .parent-work:hover {
@@ -219,3 +220,5 @@
   height: 60px;
 }
 }
+
+/*partners*/

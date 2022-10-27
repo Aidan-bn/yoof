@@ -4,27 +4,9 @@ import telecom from './pic/tower.svg';
 import codes from './pic/code.svg';
 import consult from './pic/consult.svg';
 
-function App() {
-  return (
-    <div className="App">
-      <section className='section-header'>
-      <header className="App-header">
-        <h1>
-          Hello There
-        </h1>
-        <p className='motto'>
-           # You're needs, # our working area
-        </p>
-
-      </header>
-      <div className='search'>
-        <input type='text' name='search' className='inputSearch'></input>
-        <button className='btnSearch'>Search</button>
-      </div>
-      </section>
-      
-
-      <section className='work'>
+function workDiv(){
+    return(
+        <section className='work'>
         <h2>Our Service</h2>
         
         <div className='parent-work'>
@@ -97,19 +79,7 @@ function App() {
           </div>
         </div>
       </section>
-
-      <section className='partners'>
-        <div className='project-description'>
-            <h5>Title</h5>
-            <p>Sample of our project , feedback from our customer</p>
-        </div>
-        <div>
-          <p>Partiners logo goes here</p>
-        </div>
-      </section>
-      
-    </div>
-  );
+    )
 }
 
-export default App;
+export default workDiv;
