@@ -1,4 +1,6 @@
 import './App.css';
+import image from './pic/dwn.png';
+
 function App() {
   return (
     <div className="App">
@@ -24,7 +26,10 @@ function App() {
         
         <div className='parent-work'>
           <div className='child-work'>
-            <h4>Software Development</h4>
+            <div className='image-work'>
+              <h4>Software Development</h4>
+              <img src={image} className="illustration" />
+            </div>
             <div className='work-description'>
               Hey gut will you meet nw akeuun to see them tomorro,
               Hey gut will you meet nw akeuun to see them tomorro,
@@ -42,7 +47,10 @@ function App() {
 
         <div className='parent-work'>
           <div className='child-work'>
-            <h4>Software Development</h4>
+            <div className='image-work'>
+              <h4>Telecom Services</h4>
+              <img src={image} className="illustration" />
+            </div>
             <div className='work-description'>
               Hey gut will you meet nw akeuun to see them tomorro,
               Hey gut will you meet nw akeuun to see them tomorro,
@@ -54,7 +62,10 @@ function App() {
 
         <div className='parent-work'>
           <div className='child-work'>
-            <h4>Software Development</h4>
+            <div className='image-work'>
+              <h4>Graphic & Animation</h4>
+              <img src={image} className="illustration" />
+            </div>
             <div className='work-description'>
               Hey gut will you meet nw akeuun to see them tomorro,
               Hey gut will you meet nw akeuun to see them tomorro,
@@ -66,7 +77,10 @@ function App() {
 
         <div className='parent-work'>
           <div className='child-work'>
-            <h4>Software Development</h4>
+            <div className='image-work'>
+              <h4>Consultancy Work</h4>
+              <img src={image} className="illustration" />
+            </div>
             <div className='work-description'>
               Hey gut will you meet nw akeuun to see them tomorro,
               Hey gut will you meet nw akeuun to see them tomorro,

@@ -65,6 +65,7 @@
   font-weight: 800;
   font-size: 40px;
   margin-bottom: 7px;
+  margin-top: 10px;
 }
 
 .work h2:hover {
@@ -92,8 +93,31 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: bisque;
+  border: 1px solid bisque;
   border-radius: 9px;
+}
+
+.image-work {
+  height: 25vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.illustration {
+  width: 40px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.work-description {
+  background-color: rgba(250, 129, 40, 0.9);
+  border-radius: 0px 0px 8px 8px;
+  padding: 10px;
+  text-align: justify;
+  height: 50%;
 }
 
 .parent-work:hover {
@@ -110,10 +134,7 @@
   gap: 20px;
   align-items: center;
   justify-content: center;
-  padding: 9px;
 }
-
-
 
 /* start new layout */
 @media screen and (max-width: 768px) {
@@ -171,7 +192,7 @@
 }
 
 .parent-work {
-  padding: 10px;
+  /* padding: 10px; */
   color: #1d1d1d;
   width: 70%;
   text-align: center;
