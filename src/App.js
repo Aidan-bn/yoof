@@ -8,19 +8,18 @@ function App() {
   return (
     <div className="App">
       <section className='section-header'>
-      <header className="App-header">
-        <h1>
-          Hello There
-        </h1>
-        <p className='motto'>
-           # You're needs, # our working area
-        </p>
-
-      </header>
-      <div className='search'>
-        <input type='text' name='search' className='inputSearch'></input>
-        <button className='btnSearch'>Search</button>
-      </div>
+        <header className="App-header">
+          <h1>
+            Hello There
+          </h1>
+          <p className='motto'>
+            # You're needs, # our working area
+          </p>
+        </header>
+        <div className='search'>
+          <input type='text' name='search' className='inputSearch'></input>
+          <button className='btnSearch'>Search</button>
+        </div>
       </section>
       
 
@@ -124,6 +123,41 @@ function App() {
           <textarea class='message' id='message' placeholder='Enter message'/>
           <button className='submit'>Submit</button>
         </form>
+
+        <div className='bottom-footer'>
+          <h3>Our Useful Links</h3>
+          <div className='inner-bottom-footer'>
+            <div className='left-footer'>
+              <h6>Our Contact</h6>
+                  <ul>
+                    <li>Email: info@yoofgalore.co.tz</li>
+                    <li>P.O.Box: 2643 Dodoma</li>
+                    <li>Phone No:</li>
+                    <li>+255 753 122 250</li>
+                    <li>+255 753 122 250</li>
+                    <li>+255 753 122 250</li>
+                  </ul>
+            </div>
+            <div className='middle-footer'>
+              <h6>Our Values</h6>
+                  <ul>
+                    <li>Motto</li>
+                    <li>Mission</li>
+                    <li>Vision</li>
+                  </ul>
+            </div>
+            <div className='right-footer'>
+              <h6>Feature project</h6>
+                <ul>
+                  <li>Mkalama house</li>
+                  <li>Mkalama house</li>
+                  <li>Mkalama house</li>
+                  <li>Mkalama house</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+          <div className='copyright'>&copy; 2022 | YOOF GALORE Co. Ltd</div>
       </section>
     </div>
   );
