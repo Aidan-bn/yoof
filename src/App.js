@@ -33,7 +33,7 @@ function App() {
         </header>
         <div className='search'>
           <input type='text' name='search' className='inputSearch'></input>
-          <button className='btnSearch' id='btnSearch'>Search</button>
+          <button className='btnSearch' >Search</button>
         </div>
       </section>
       
