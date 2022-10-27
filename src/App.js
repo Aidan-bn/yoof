@@ -122,7 +122,7 @@ function App() {
           <input type="text" class="email" id="email" placeholder='Enter email ..'></input>
           <label>Message: </label>
           <textarea class='message' id='message' placeholder='Enter message'/>
-          <button>Submit</button>
+          <button className='submit'>Submit</button>
         </form>
       </section>
     </div>
