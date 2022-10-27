@@ -103,11 +103,14 @@ function App() {
             <h5>Title</h5>
             <p>Sample of our project , feedback from our customer</p>
         </div>
-        <div>
+        <div className='partner-logo'>
           <p>Partiners logo goes here</p>
         </div>
       </section>
-      
+
+      <section className='google-map'>
+
+      </section>
     </div>
   );
 }

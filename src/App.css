@@ -222,3 +222,50 @@
 }
 
 /*partners*/
+.partners {
+  background-image: url('../public/img/skyline.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  /* padding: 20px; */
+  margin-top: 10px;
+}
+
+.project-description h5{
+  font-size: 30px;
+  color: #fa8128;
+}
+
+.partner-logo {
+  border: 2px solid;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .partners {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 30px; */
+  }
+
+  .project-description {
+    width: 70%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(250, 129, 40, 0.7);
+    border-radius: 10px;
+    gap: 20px;
+  }
+
+  .project-description h5{
+    color: #ffffff;
+  }
+}
