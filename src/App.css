@@ -56,9 +56,11 @@
   background-color: #ffffff;
   color: #fa8128;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: auto;
+  gap: 20px;
 }
 
 .work h2 {
@@ -151,6 +153,14 @@
     background-color: aliceblue;
   }
 
+  .content-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
   .App-header {
     height: 40vh;
     background-color: rgba(0, 0, 0, 0.8);
@@ -199,15 +209,10 @@
   font-weight: 800;
 }
 
-.work {
-  flex-direction: column;
-  gap: 20px;
-}
-
 .parent-work {
   /* padding: 10px; */
   color: #1d1d1d;
-  width: 70%;
+  width: 58%;
   text-align: center;
 }
 
@@ -236,6 +241,11 @@
     top: 5px;
   }
 
+  .img-logo {
+    background-color: #ffffff;
+    width: 60px;
+    border-radius: 50%;
+  }
   .humberger {
     display: none;
   }
@@ -301,23 +311,36 @@
   }
 
   .work {
-    /* flex-direction: column; */
-    max-width: 1215px; 
-    border: 1px solid red;
+    flex-direction: column;
+    /* max-width: 1215px;  */
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-work {
+     /* display: -ms-grid;  
+      display: flex;
+      -ms-grid-columns: (minmax(370px, 380px)) [auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(370px, 380px));
+      grid-gap: 5px;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;*/
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+      gap: 20px;
+      padding: 20px;
   }
 
   .parent-work {
-    /* display: -ms-grid; */
-  display: grid;
-  -ms-grid-columns: (minmax(200px, 250px)) [auto-fit];
-  grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
-  grid-gap: 5px;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+    width: 400px;
   }
 
   .child-work {
+    color: #1d1d1d;
   }
 
 }
@@ -356,6 +379,12 @@
     right: 40px;
     top: 40px;
   }
+
+  .humberger-logo {
+    width: 30px;
+    cursor: pointer;
+  }
+
   .partners {
     flex-direction: column;
     align-items: center;
@@ -407,6 +436,7 @@
     color: #fa8128;
     height: 100%;
   }
+
 }
 
 .google-map {
@@ -472,7 +502,8 @@ textarea {
 }
 
 .submit {
-  background-color: #1d1d1d;
+  background-color: #ffffff;
+  font-weight: 800;
   height: 40px;
   color: #fa8128;
   font-size: 20px;
@@ -500,8 +531,15 @@ form{
   width: 100%;
   padding-top: 30px;
   text-align: center;
-  border-top: 1px solid #ffffff;
   background-color: rgba(0, 0, 0, 0.65);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links {
+  width: 70%;
 }
 
 .bottom-footer h3 {

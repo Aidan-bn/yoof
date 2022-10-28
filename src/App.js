@@ -1,4 +1,6 @@
 import './App.css';
+import humberger from './pic/menu.png';
+import logo from './pic/logo.png';
 import graphic from './pic/pen.svg';
 import telecom from './pic/tower.svg';
 import codes from './pic/code.svg';
@@ -9,7 +11,7 @@ function App() {
     <div className="App">
       <section className='section-header'>
         <div className='nav-bar'>
-          <h1>LOGO</h1>
+          <img src={logo} className='img-logo' alt='Company Logo' />
           <ul className='nav-link' >
             <li className='nav-list'>Home</li>
             <li className='nav-list'>About</li>
@@ -17,7 +19,7 @@ function App() {
           </ul>
         </div>
         <div className='humberger'>
-          <h3>humberger</h3>
+          <img src={humberger} className='humberger-logo' alt='humberger' />
         </div>
         <header className="App-header">
           <h1>
@@ -40,73 +42,68 @@ function App() {
 
       <section className='work'>
         <h2>Our Service</h2>
-        
-        <div className='parent-work'>
-          <div className='child-work'>
-            <div className='image-work'>
-              <img src={codes} className='picha' alt='graphics' />
-            </div>
-            <div className='work-description'>
-            <h4>Software Development</h4>
-            <hr />
-              Hey gut will you meet nw akeuun to see them tomorro,
-              Hey gut will you meet nw akeuun to see them tomorro,
-              Hey gut will you meet nw akeuun to see them tomorro
-
-              Hey gut will you meet nw akeuun to see them tomorro,
-              Hey gut will you meet nw akeuun to see them tomorro,
-              Hey gut will you meet nw akeuun to see them tomorro
-              Hey gut will you meet nw akeuun to see them tomorro,
-              Hey gut will you meet nw akeuun to see them tomorro,
-              Hey gut will you meet nw akeuun to see them tomorro
+        <div className='content-work'>
+          <div className='parent-work'>
+            <div className='child-work'>
+              <div className='image-work'>
+                <img src={codes} className='picha' alt='graphics' />
+              </div>
+              <div className='work-description'>
+              <h4>Software Development</h4>
+              <hr />
+               Hey gut will you meet nw akeuun to see them tomorro
+                Hey gut will you meet nw akeuun to see them tomorro,
+                Hey gut will you meet nw akeuun to see them tomorro,
+                Hey gut will you meet nw akeuun to see them tomorro
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className='parent-work'>
-          <div className='child-work'>
-            <div className='image-work'>
-              <img src={telecom} className='picha' alt='graphics' />
-            </div>
-            <div className='work-description'>
-            <h4>Telecom Services</h4>
-            <hr />
-              Hey gut will you meet nw akeuun to see them tomorro,
-              Hey gut will you meet nw akeuun to see them tomorro,
-              Hey gut will you meet nw akeuun to see them tomorro
-              Hey gut will you meet nw akeuun to see them tomorro
+          <div className='parent-work'>
+              <div className='child-work'>
+                <div className='image-work'>
+                  <img src={telecom} className='picha' alt='graphics' />
+                </div>
+                <div className='work-description'>
+                <h4>Telecom Services</h4>
+                <hr />
+                  Hey gut will you meet nw akeuun to see them tomorro,
+                  Hey gut will you meet nw akeuun to see them tomorro,
+                  Hey gut will you meet nw akeuun to see them tomorro
+                  Hey gut will you meet nw akeuun to see them tomorro
+                </div>
+              </div>
+          </div>
+
+          <div className='parent-work'>
+            <div className='child-work'>
+              <div className='image-work'>
+                <img src={graphic} className='picha' alt='graphics' />
+              </div>
+              <div className='work-description'>
+              <h4>Graphic & Animation</h4>
+              <hr />
+                Hey gut will you meet nw akeuun to see them tomorro,
+                Hey gut will you meet nw akeuun to see them tomorro,
+                Hey gut will you meet nw akeuun to see them tomorro
+                Hey gut will you meet nw akeuun to see them tomorro
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className='parent-work'>
-          <div className='child-work'>
-            <div className='image-work'>
-              <img src={graphic} className='picha' alt='graphics' />
-            </div>
-            <div className='work-description'>
-            <h4>Graphic & Animation</h4>
-            <hr />
-              Hey gut will you meet nw akeuun to see them tomorro,
-              Hey gut will you meet nw akeuun to see them tomorro,
-              Hey gut will you meet nw akeuun to see them tomorro
-              Hey gut will you meet nw akeuun to see them tomorro
-            </div>
-          </div>
-        </div>
-
-        <div className='parent-work'>
-          <div className='child-work'>
-            <div className='image-work'>
-              <img src={consult} className='picha' alt='graphics' />
-            </div>
-            <div className='work-description'>
-            <h4>Consultancy Work</h4>
-            <hr />
-              Hey gut will you meet nw akeuun to see them tomorro,
-              Hey gut will you meet nw akeuun to see them tomorro,
-              Hey gut will you meet nw akeuun to see them tomorro
-              Hey gut will you meet nw akeuun to see them tomorro
+          <div className='parent-work'>
+            <div className='child-work'>
+              <div className='image-work'>
+                <img src={consult} className='picha' alt='graphics' />
+              </div>
+              <div className='work-description'>
+              <h4>Consultancy Work</h4>
+              <hr />
+                Hey gut will you meet nw akeuun to see them tomorro,
+                Hey gut will you meet nw akeuun to see them tomorro,
+                Hey gut will you meet nw akeuun to see them tomorro
+                Hey gut will you meet nw akeuun to see them tomorro
+              </div>
             </div>
           </div>
         </div>
@@ -141,6 +138,7 @@ function App() {
 
         <div className='bottom-footer'>
           <h3>Our Useful Links</h3>
+          <div className='footer-links'>
           <div className='inner-bottom-footer'>
             <div className='left-footer'>
               <h6>Our Contact</h6>
@@ -171,6 +169,8 @@ function App() {
                 </ul>
             </div>
           </div>
+          </div>
+          
         </div>
           <div className='copyright'>&copy; 2022 | YOOF GALORE Co. Ltd</div>
       </section>
