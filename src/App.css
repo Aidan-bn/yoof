@@ -242,9 +242,7 @@
   }
 
   .img-logo {
-    background-color: #ffffff;
     width: 60px;
-    border-radius: 50%;
   }
   .humberger {
     display: none;
@@ -378,6 +376,13 @@
     color: #fa8128;
     right: 40px;
     top: 40px;
+  }
+  
+  .img-logo-mob {
+    width: 60px;
+    border-radius: 20%;
+    right: 40px;
+    background-color: #1d1d1d;
   }
 
   .humberger-logo {

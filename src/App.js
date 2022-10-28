@@ -1,6 +1,6 @@
 import './App.css';
 import humberger from './pic/menu.png';
-import logo from './pic/logo.png';
+import logo from './pic/logofinal.png';
 import graphic from './pic/pen.svg';
 import telecom from './pic/tower.svg';
 import codes from './pic/code.svg';
@@ -39,7 +39,6 @@ function App() {
         </div>
       </section>
       
-
       <section className='work'>
         <h2>Our Service</h2>
         <div className='content-work'>
