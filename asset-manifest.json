@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/yoof/static/css/main.4dcafc7f.css",
+    "main.js": "/yoof/static/js/main.b87ac4c5.js",
+    "static/js/787.2384f136.chunk.js": "/yoof/static/js/787.2384f136.chunk.js",
+    "static/media/skyline.jpg": "/yoof/static/media/skyline.4d53f0c4a0fd46a2f126.jpg",
+    "static/media/computer-g.jpg": "/yoof/static/media/computer-g.5681e360c5e6b1e07864.jpg",
+    "static/media/bg-dark.jpg": "/yoof/static/media/bg-dark.c9d8cbc80908a60d91e8.jpg",
+    "static/media/tower.svg": "/yoof/static/media/tower.77a503bcd07a1000b9089a4f9f71a63b.svg",
+    "static/media/consult.svg": "/yoof/static/media/consult.559597183fb45340a0187a10c3735bd7.svg",
+    "static/media/code.svg": "/yoof/static/media/code.a867034ca3f18ec71b75c46e0cdcfb00.svg",
+    "index.html": "/yoof/index.html",
+    "static/media/pen.svg": "/yoof/static/media/pen.32e2c158d7b8c7089d7ebf627a500f15.svg",
+    "main.4dcafc7f.css.map": "/yoof/static/css/main.4dcafc7f.css.map",
+    "main.b87ac4c5.js.map": "/yoof/static/js/main.b87ac4c5.js.map",
+    "787.2384f136.chunk.js.map": "/yoof/static/js/787.2384f136.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4dcafc7f.css",
+    "static/js/main.b87ac4c5.js"
+  ]
+}
