@@ -249,7 +249,8 @@
   .img-logo {
     width: 60px;
   }
-  .humberger {
+  
+  .humberger, .logo-mobile {
     display: none;
   }
 
@@ -383,6 +384,19 @@
     top: 40px;
   }
   
+  .logo-mobile {
+    position: absolute;
+    left: 40px;
+    top: 30px;
+    width: 100px;
+    border-radius: 50%;
+  }
+
+  .logo-mobile .mob-logo {
+    width: 50px;
+    border-radius: 25%;
+  }
+
   .img-logo-mob {
     width: 60px;
     border-radius: 20%;

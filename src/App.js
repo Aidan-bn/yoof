@@ -21,6 +21,9 @@ function App() {
         <div className='humberger'>
           <img src={humberger} className='humberger-logo' alt='humberger' />
         </div>
+        <div className='logo-mobile'>
+          <img src={logo} className='mob-logo' alt='humberger' />
+        </div>
         <header className="App-header">
           <h1>
             Hello There
