@@ -1,10 +1,7 @@
 import './App.css';
 import humberger from './pic/menu.png';
 import logo from './pic/logofinal.png';
-import graphic from './pic/pen.svg';
-import telecom from './pic/tower.svg';
-import codes from './pic/code.svg';
-import consult from './pic/consult.svg';
+
 
 function App() {
   return (
@@ -26,7 +23,7 @@ function App() {
         </div>
         <header className="App-header">
           <h1>
-            Hello There
+            Tech Smart
           </h1>
           <p className='motto'>
             # You're needs, # our working area
@@ -41,143 +38,7 @@ function App() {
           <button className='btnSearch' >Search</button>
         </div>
       </section>
-      
-      <section className='work'>
-        <h2>Our Service</h2>
-        <div className='content-work'>
-          <div className='parent-work'>
-            <div className='child-work'>
-              <div className='image-work'>
-                <img src={codes} className='picha' alt='graphics' />
-              </div>
-              <div className='work-description'>
-              <h4>Software Development</h4>
-              <hr />
-               Hey gut will you meet nw akeuun to see them tomorro
-                Hey gut will you meet nw akeuun to see them tomorro,
-                Hey gut will you meet nw akeuun to see them tomorro,
-                Hey gut will you meet nw akeuun to see them tomorro
-              </div>
-            </div>
-          </div>
-
-          <div className='parent-work'>
-              <div className='child-work'>
-                <div className='image-work'>
-                  <img src={telecom} className='picha' alt='graphics' />
-                </div>
-                <div className='work-description'>
-                <h4>Telecom Services</h4>
-                <hr />
-                  Hey gut will you meet nw akeuun to see them tomorro,
-                  Hey gut will you meet nw akeuun to see them tomorro,
-                  Hey gut will you meet nw akeuun to see them tomorro
-                  Hey gut will you meet nw akeuun to see them tomorro
-                </div>
-              </div>
-          </div>
-
-          <div className='parent-work'>
-            <div className='child-work'>
-              <div className='image-work'>
-                <img src={graphic} className='picha' alt='graphics' />
-              </div>
-              <div className='work-description'>
-              <h4>Graphic & Animation</h4>
-              <hr />
-                Hey gut will you meet nw akeuun to see them tomorro,
-                Hey gut will you meet nw akeuun to see them tomorro,
-                Hey gut will you meet nw akeuun to see them tomorro
-                Hey gut will you meet nw akeuun to see them tomorro
-              </div>
-            </div>
-          </div>
-
-          <div className='parent-work'>
-            <div className='child-work'>
-              <div className='image-work'>
-                <img src={consult} className='picha' alt='graphics' />
-              </div>
-              <div className='work-description'>
-              <h4>Consultancy Work</h4>
-              <hr />
-                Hey gut will you meet nw akeuun to see them tomorro,
-                Hey gut will you meet nw akeuun to see them tomorro,
-                Hey gut will you meet nw akeuun to see them tomorro
-                Hey gut will you meet nw akeuun to see them tomorro
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className='partners'>
-        <div className='project-description'>
-            <h5>Title</h5>
-            <p>Sample of our project , feedback from our customer</p>
-        </div>
-        <div className='partner-logo'>
-          <p>Partiners logo goes here</p>
-        </div>
-      </section>
-
-      <section className='google-map'>
-        <h2>Our Google map goes here</h2>
-      </section>
-
-      <section className='footer'>
-        <h4>Reach Us!</h4>
-        <hr />
-        <form>
-          <label>Name: </label>
-          <input type="text" class="name" id="name" required placeholder='Enter your name ..'></input>
-          <label>Email: </label>
-          <input type="text" class="email" id="email" required placeholder='Enter email ..'></input>
-          <label>Message: </label>
-          <textarea class='message' id='message' required placeholder='Enter message'/>
-          <button className='submit'>Submit</button>
-        </form>
-
-        <div className='bottom-footer'>
-          <h3>Our Useful Links</h3>
-          <div className='footer-links'>
-          <div className='inner-bottom-footer'>
-            <div className='left-footer'>
-              <h6>Our Contact</h6>
-                  <ul>
-                    <li>Email: info@yoofgalore.co.tz</li>
-                    <li>P.O.Box: 2643 Dodoma</li>
-                    <li>Phone No:</li>
-                    <li>+255 753 122 250</li>
-                    <li>+255 753 122 250</li>
-                    <li>+255 753 122 250</li>
-                  </ul>
-            </div>
-            <div className='middle-footer'>
-              <h6>Our Values</h6>
-                  <ul>
-                    <li>Motto</li>
-                    <li>Mission</li>
-                    <li>Vision</li>
-                  </ul>
-            </div>
-            <div className='right-footer'>
-              <h6>Feature project</h6>
-                <ul>
-                  <li>Mkalama house</li>
-                  <li>Mkalama house</li>
-                  <li>Mkalama house</li>
-                  <li>Mkalama house</li>
-                </ul>
-            </div>
-          </div>
-          </div>
-          
-        </div>
-          <div className='copyright'>&copy; 2022 | YOOF GALORE Co. Ltd</div>
-      </section>
     </div>
   );
 }
-
 export default App;
