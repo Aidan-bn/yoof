@@ -62,6 +62,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
+    - npm install gh-pages — save-dev
+    - "homepage": "https://{username}.github.io
+    - "homepage": "https://testwebsite.com"
+    - "predeploy": "npm run build",
+    - "deploy": "gh-pages -d build"
+    - npm run deploy
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
