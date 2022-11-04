@@ -127,11 +127,11 @@ function App() {
         <hr />
         <form>
           <label>Name: </label>
-          <input type="text" class="name" id="name" placeholder='Enter your name ..'></input>
+          <input type="text" class="name" id="name" required placeholder='Enter your name ..'></input>
           <label>Email: </label>
-          <input type="text" class="email" id="email" placeholder='Enter email ..'></input>
+          <input type="text" class="email" id="email" required placeholder='Enter email ..'></input>
           <label>Message: </label>
-          <textarea class='message' id='message' placeholder='Enter message'/>
+          <textarea class='message' id='message' required placeholder='Enter message'/>
           <button className='submit'>Submit</button>
         </form>
 
