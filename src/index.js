@@ -2,12 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Cards from './Cards';
+import Partners from './Partners';
+import Map from './Map';
+import Footer from './Footer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Cards />
+    <Partners />
+    <Map />
+    <Footer />
   </React.StrictMode>
 );
 
